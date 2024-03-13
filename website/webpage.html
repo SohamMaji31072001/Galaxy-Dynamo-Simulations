@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Dynamo Simulations</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('images/image1.jpg'); /* Replace 'images/image1.png' with your image URL */
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 186, 113);
+        }
+        header {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 30px;
+            z-index: 999;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 18px; /* Adjust font size */
+        }
+        nav a:hover {
+            color: cyan;
+        }
+        main {
+            padding: 100px 20px 50px;
+            text-align: center; /* Center-align main content */
+        }
+        h1, h2 {
+            font-size: 36px; /* Adjust heading font size */
+            color: #FFD700; /* Change heading color */
+            margin-bottom: 20px; /* Add spacing below headings */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+        }
+        p {
+            font-size: 16px; /* Adjust paragraph font size */
+            line-height: 1.6; /* Adjust line height for better readability */
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            text-align: center;
+            color: #808080; /* Change footer text color */
+            font-size: 14px; /* Adjust footer text size */
+        }
+        /* Overlay GIF for Introduction section */
+        #home {
+            position: relative;
+        }
+        #gif-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('gifs/backgif2.gif'); /* Replace 'gifs/backgif2.gif' with your GIF URL */
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7; /* Adjust opacity as needed */
+        }
+        #home h1,
+        #home p {
+            position: relative;
+            z-index: 2; /* Ensure the text is above the GIF overlay */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <button class="button">
+            Button
+        </button>
+        <a href="#simulations">Simulations</a>
+        <a href="#theories">Theories</a>
+        <a href="#images">Images</a>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <div id="gif-overlay"></div> <!-- GIF Overlay -->
+        <h1>Welcome to Galactic Dynamo Simulations</h1>
+        <p>Introductory text goes here...</p>
+    </section>
+
+    <section id="simulations">
+        <h2>Galactic Dynamo Simulations</h2>
+        <p>Description of simulations goes here...</p>
+    </section>
+
+    <section id="theories">
+        <h2>Theories</h2>
+        <p>Description of theories goes here...</p>
+    </section>
+
+    <section id="images">
+        <h2>Images</h2>
+        <p>Galactic dynamo images and visualizations go here...</p>
+    </section>
+</main>
+
+<footer>
+    <p>Contact: Your Name - <a href="mailto:your-email@example.com">Your Email</a></p>
+</footer>
+
+</body>
+</html>
